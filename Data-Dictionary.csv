@@ -1,0 +1,20 @@
+Variable,Variable Label,Variable Type,Unit of Measurement,Allowed Values,Description
+Spotify URI,spotify_uri,String,N/A,"Plain text, must be formatted as a valid URI",Uniform Resource Indicators (URIs) for each song listed in the dataset on Spotify.
+Artist Names,artist_names,String,N/A,Plain text,"The artists performing each song in the dataset, listed in order from the main artist to the featured artist(s)."
+Song Name,track_name,String,N/A,Plain text,The title of each song in the dataset.
+Song Year,track_year,Integer,N/A,Real 4-digit numbers representing years,The year each song in the dataset was released.
+Presence on Spotify Charts,spotify_chart,Boolean,N/A,TRUE or FALSE,Indicator for whether the song was in the top 100 songs on Spotify in 2022.
+Presence on TikTok Charts,tiktok_chart,Boolean,N/A,TRUE or FALSE,Indicator for whether the song was in the top 100 songs on TikTok in 2022.
+Highest Spotify Chart Position,spotify_chart_pos,Integer,N/A,Real numbers greater than 0,The song's highest position on the Spotify top charts in 2022.
+Weeks Spent on Spotify Charts,spotify_week,Integer,N/A,Real numbers greater than 0,The amount of weeks each song was on the Spotify charts.
+TikTok Track Popularity,tiktok_track_pop,Integer,N/A,Real numbers between 0 and 100,"The song's popularity on TikTok, out of 100."
+TikTok Artist Popularity,tiktok_artist_pop,Integer,N/A,Real numbers between 0 and 100,"The artist's popularity on TikTok, out of 100 and calculated on average from their songs' popularity."
+Danceability,danceability,Integer,N/A,Real numbers greater than 0,"Each song's score in the ""Danceability"" index on Organize Your Music."
+Energy,energy,Integer,N/A,Real numbers greater than 0,"Each song's score in the ""Energy"" index on Organize Your Music."
+Loudness,loudness,Integer,Decibels,Real numbers greater than 0,"Each song's score in the ""Loudness"" index, in decibels, on Organize Your Music."
+Speechiness,speechiness,Integer,N/A,Real numbers greater than 0,"Each song's score in the ""Speechiness"" index on Organize Your Music."
+Acousticness,acousticness,Integer,N/A,Real numbers greater than 0,"Each song's score in the ""Acousticness"" index on Organize Your Music."
+Instrumentalness,instrumentalness,Integer,N/A,Real numbers greater than 0,"Each song's score in the ""Instrumentalness"" index on Organize Your Music."
+Liveness,liveness,Integer,N/A,Real numbers greater than 0,"Each song's score in the ""Liveness"" index on Organize Your Music."
+Tempo,tempo_bpm,Integer,Beats Per Minute,Real numbers greater than 0,The song's tempo in beats per minute (BPM).
+Song Length,duration_ms,Integer,Milliseconds,Real numbers greater than 0,The song's length in milliseconds.
