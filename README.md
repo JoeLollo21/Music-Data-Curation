@@ -30,6 +30,6 @@ No spaces or special symbols appear in file or variable names. Everything that w
 The Spotify data was gathered by me using the [Spotify API](https://developer.spotify.com/documentation/web-api/), while the TikTok data was posted by [sveta151 on Kaggle](https://www.kaggle.com/datasets/sveta151/tiktok-popular-songs-2022) and gathered by them using the [TikTok API](https://developers.tiktok.com/).
 
 ## Metadata and Additional Documentation:
-- [Data Dictionary](https://github.com/ChessPiece21/LIS-54X/blob/main/Curation-Protocol/Data-Dictionary.csv): This data dictionary for 2022-Music-Charts is located in the repository. It was only done as a CSV because table formatting in Markdown was hard and relied too much on trial and error.
-- [XML Metadata](https://github.com/ChessPiece21/LIS-54X/blob/main/Curation-Protocol/Music-Charts-Metadata.xml): Metadata for the dataset was created using the Dublin Core schema, indicating the creator, topics, and access rights. It is also located in the repository.
-- [Report Bibliography](https://github.com/ChessPiece21/LIS-54X/blob/main/Curation-Protocol/Bibliography.md)
+- [Data Dictionary](https://github.com/JoeLollo21/Music-Data-Curation/blob/main/Data-Dictionary.csv): This data dictionary for 2022-Music-Charts is located in the repository. It was only done as a CSV because table formatting in Markdown was hard and relied too much on trial and error.
+- [XML Metadata](https://github.com/JoeLollo21/Music-Data-Curation/blob/main/Music-Charts-Metadata.xml): Metadata for the dataset was created using the Dublin Core schema, indicating the creator, topics, and access rights. It is also located in the repository.
+- [Report Bibliography](https://github.com/JoeLollo21/Music-Data-Curation/blob/main/Bibliography.md)
